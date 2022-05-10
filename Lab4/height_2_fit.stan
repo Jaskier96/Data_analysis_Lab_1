@@ -11,7 +11,7 @@ parameters{
 }
 
 transformed parameters {
-   vector[N] mu = weight*beta+alpha
+   vector[N] mu = weight*beta+alpha;
 }
 
 model{
